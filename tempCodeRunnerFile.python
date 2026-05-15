@@ -1,0 +1,11 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+import numpy as np
+
+df = pd.read_csv("network_traffic.csv")
+
+print(df.head())
+
+print(df.info())
+
+print(df.isnull().sum())
